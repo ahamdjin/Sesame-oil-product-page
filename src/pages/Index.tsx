@@ -65,20 +65,26 @@ const Index = () => {
   return (
     <div className="bg-black">
       {/* Hero */}
-      <section className="flex flex-col items-center w-full">
-        <div className="pt-0 text-center z-10">
-          <h1 className="font-display text-[8rem] md:text-[12rem] lg:text-[16rem] font-medium text-foreground leading-[0.85] tracking-tight">
-            <span className="block md:inline">Goso </span>
-            <span className="block md:inline">고소</span>
+      <section className="flex flex-col items-center w-full px-4 pt-10 sm:pt-12 md:pt-16 pb-16 md:pb-24">
+        <div className="text-center z-10 w-full">
+          <h1 className="font-display text-[clamp(3.5rem,10vw,9rem)] font-medium text-foreground leading-[1.05] tracking-tight">
+            <span className="inline">Goso </span>
+            <span className="inline">고소</span>
           </h1>
         </div>
-        <div className="relative w-full max-w-[340px] sm:max-w-[440px] md:max-w-[560px] lg:max-w-[640px] mx-auto">
+        <div className="relative w-full max-w-[275px] sm:max-w-[330px] md:max-w-[380px] lg:max-w-[430px] mx-auto mt-10 md:mt-14">
           <img
             src={heroBg}
             alt="Goso & Soul sesame oil bottle with sesame leaves, flowers and seeds"
             className="w-full h-auto object-contain"
           />
         </div>
+        <Link
+          to="/shop/flora-pitcher"
+          className="mt-10 md:mt-12 inline-flex items-center justify-center rounded-full bg-primary px-10 py-4 text-sm tracking-widest text-primary-foreground transition-colors hover:bg-primary/90"
+        >
+          Shop Goso · $185
+        </Link>
       </section>
 
       {/* Story Sections 1-3 */}
