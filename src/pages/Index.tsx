@@ -34,7 +34,7 @@ const FadeIn = ({
 const storySections = [
   {
     description:
-      "작은 씨앗, 깊은 풍미. A small seed, a beautiful depth of flavour. A little goma makes the everyday feel special.",
+      "작은 씨앗, 깊은 풍미. A small seed, a beautiful depth of flavour. A little goso makes the everyday feel special.",
     image: sectionTl,
   },
   {
@@ -68,8 +68,8 @@ const Index = () => {
       <section className="flex flex-col items-center w-full">
         <div className="pt-0 text-center z-10">
           <h1 className="font-display text-[8rem] md:text-[12rem] lg:text-[16rem] font-medium text-foreground leading-[0.85] tracking-tight">
-            <span className="block md:inline">Goma </span>
-            <span className="block md:inline">胡麻</span>
+            <span className="block md:inline">Goso </span>
+            <span className="block md:inline">고소</span>
           </h1>
         </div>
         <div className="relative w-full max-w-5xl mx-auto">
@@ -158,7 +158,7 @@ const Index = () => {
                 to="/shop/flora-pitcher"
                 className="inline-block bg-primary text-primary-foreground rounded-full px-10 py-4 text-sm tracking-widest lowercase hover:bg-primary/90 transition-colors"
               >
-                discover goma — $185
+                discover goso — $185
               </Link>
             </div>
           </div>
