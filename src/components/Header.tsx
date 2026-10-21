@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container mx-auto px-6 h-16 md:h-20 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="text-xl font-light tracking-wider text-foreground font-display">
-          Goma 胡麻
+          goma & soul
         </Link>
 
         {/* Desktop Nav */}
