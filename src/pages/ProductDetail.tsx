@@ -40,7 +40,7 @@ const ProductDetail = () => {
     <div className="bg-black min-h-screen text-foreground">
       {/* Hero: Product info left (sticky), Gallery right (scrolling) */}
       <div className="container mx-auto px-6 pt-12 lg:pt-20 pb-24">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 lg:gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.15fr] gap-10 lg:gap-16">
           {/* Product Info — Sticky Left Column */}
           <div className="lg:sticky lg:top-24 lg:self-start space-y-6 order-2 lg:order-1">
             <div>
@@ -57,14 +57,14 @@ const ProductDetail = () => {
           </div>
 
           {/* Gallery — Vertical scroll, right column */}
-          <div className="space-y-3 order-1 lg:order-2">
+          <div className="space-y-8 order-1 lg:order-2 w-full max-w-[480px] mx-auto lg:mr-0">
             {product.gallery.map((img, i) => (
               <FadeIn key={i}>
-                <div className="overflow-hidden rounded-2xl bg-black">
+                <div className="overflow-hidden rounded-2xl bg-black flex items-center justify-center">
                   <img
                     src={img.src}
                     alt={img.alt}
-                    className="w-full h-auto object-cover"
+                    className="w-full h-auto max-h-[470px] md:max-h-[540px] object-contain"
                     loading={i > 0 ? "lazy" : undefined}
                     width={1200}
                     height={1200}
@@ -85,7 +85,7 @@ const ProductDetail = () => {
               <img
                 src={product.specImage}
                 alt={`${product.name} detail`}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto max-h-[480px] object-contain"
                 loading="lazy"
                 width={1200}
                 height={1200}
