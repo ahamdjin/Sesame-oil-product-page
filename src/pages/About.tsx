@@ -2,16 +2,16 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const teamMembers = [
   {
-    name: "Kenji Yamamoto — 父 (Father)",
+    name: "Our sesame oil",
     links: [
-      { label: "instagram", href: "https://instagram.com" },
-      { label: "kenji@soilandspirit.com", href: "mailto:kenji@soilandspirit.com" },
+      { label: "Learn more", href: "/shop/flora-pitcher" },
+      
     ],
   },
   {
-    name: "Yuki Yamamoto — 母 (Mother)",
+    name: "Made for everyday cooking",
     links: [
-      { label: "yuki@soilandspirit.com", href: "mailto:yuki@soilandspirit.com" },
+      { label: "Explore the product", href: "/shop/flora-pitcher" },
     ],
   },
 ];
@@ -24,7 +24,7 @@ const About = () => {
           {/* Left column — brand + team */}
           <div className="space-y-12">
             <h1 className="text-2xl font-normal font-sans tracking-normal">
-              soil & spirit
+              Sesame Oil
             </h1>
 
             <div className="space-y-10">
@@ -52,18 +52,16 @@ const About = () => {
           {/* Right column — mission + image */}
           <div className="space-y-12">
             <p className="text-2xl md:text-3xl font-display font-medium leading-relaxed">
-              Soil & Spirit is a family workshop in Arita, Japan — run by a husband
-              and wife who have shaped clay together for over thirty years. Kenji
-              throws on the wheel. Yuki paints every motif by hand. Together they
-              mix glazes from wood ash and local stone, fire in a climbing kiln,
-              and let each piece carry the quiet imperfection that only handwork
-              allows. Nothing is mass-produced. Nothing is rushed. What leaves
-              their studio is made to be used, held, and passed down.
+              Sesame oil is a simple ingredient with an unmistakable place in the kitchen.
+              Whether whisked into a dressing, added to a marinade or drizzled
+              over a finished dish, its nutty character brings everyday food to life.
+              This site is dedicated to exploring sesame oil, its flavour and the
+              many ways it can be enjoyed.
             </p>
 
             <img
               src={heroBg}
-              alt="Ceramic pitcher in studio light"
+              alt="Sesame oil featured imagery"
               className="w-full rounded-2xl object-cover"
               loading="lazy"
               width={1920}
