@@ -109,7 +109,7 @@ const Warranty = () => {
                   },
                   {
                     step: "Contact Us",
-                    desc: "Email care@example.com with your photos, order number, and a brief description. We respond within 24 hours.",
+                    desc: "Email the seller with your photos, order number, and a brief description. We respond within 24 hours.",
                   },
                   {
                     step: "Review",
@@ -152,7 +152,7 @@ const Warranty = () => {
             Questions about product quality?
           </p>
           <a
-            href="mailto:care@example.com"
+            href="/about"
             className="text-primary hover:text-copper-light underline text-sm uppercase tracking-wider transition-colors"
           >
             Contact Support
