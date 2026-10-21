@@ -182,10 +182,10 @@ const ProductDetail = () => {
           <div className="max-w-3xl mx-auto">
             <div className="border-t border-border pt-8 text-center">
               <p className="text-sm font-semibold text-foreground">
-                Wrapped and shipped in recycled packaging
+                Explore the flavour of sesame oil
               </p>
-              <p className="text-sm text-primary mt-1 underline cursor-pointer">
-                All sales final
+              <p className="text-sm text-primary mt-1 underline">
+                See shipping and returns
               </p>
             </div>
           </div>
