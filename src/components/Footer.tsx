@@ -7,7 +7,7 @@ const Footer = () => {
       {/* Newsletter */}
       <div className="container mx-auto px-6 text-center space-y-4 pb-8">
         <p className="text-secondary-foreground text-lg font-light">
-          A little more of what you love. ♡
+          고소한 한 방울 · A little drop of goodness. ♡
         </p>
         <a
           href="/shop/flora-pitcher"
@@ -41,7 +41,7 @@ const Footer = () => {
 
       {/* Copyright & Legal */}
       <div className="container mx-auto px-6 pt-6 text-center space-y-4">
-        <p className="text-muted-foreground text-sm">© 2026 Goma · 胡麻</p>
+        <p className="text-muted-foreground text-sm">© 2026 goma & soul · 참기름</p>
         <p className="text-muted-foreground/60 text-xs leading-relaxed max-w-3xl mx-auto">
           No part of this site may be copied, reproduced, republished, transmitted or
           distributed in any form or by any means, including photocopying or other
