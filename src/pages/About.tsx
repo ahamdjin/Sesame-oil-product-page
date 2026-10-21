@@ -2,7 +2,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const teamMembers = [
   {
-    name: "胡麻 · The seed",
+    name: "참깨 · The seed",
     links: [
       { label: "Learn more", href: "/shop/flora-pitcher" },
       
@@ -24,7 +24,7 @@ const About = () => {
           {/* Left column — brand + team */}
           <div className="space-y-12">
             <h1 className="text-2xl font-normal font-sans tracking-normal">
-              Goma · 胡麻
+              goma & soul
             </h1>
 
             <div className="space-y-10">
@@ -52,7 +52,7 @@ const About = () => {
           {/* Right column — mission + image */}
           <div className="space-y-12">
             <p className="text-2xl md:text-3xl font-display font-medium leading-relaxed">
-              Goma means sesame in Japanese — 胡麻. We love how much character can live
+              Goma means sesame in Japanese — 胡麻. In Korean, sesame oil is 참기름. We love how much character can live
               inside something so small. An aromatic finishing touch, a nutty
               note in a dressing, a quiet detail that makes a favourite meal
               feel a little more special. Goma is our ode to the small things
