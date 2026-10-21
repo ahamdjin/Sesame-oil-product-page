@@ -29,11 +29,11 @@ export interface ProductData {
 export const products: Record<string, ProductData> = {
   "flora-pitcher": {
     id: "flora-pitcher",
-    name: "Sesame Oil",
-    subtitle: "A pantry essential",
+    name: "Goma",
+    subtitle: "胡麻 · Sesame Oil",
     price: "$185",
     description:
-      "A versatile oil with the unmistakable character of sesame. Add depth to dressings, marinades, dipping sauces, noodles and everyday meals. A little can bring a distinctive nutty note to a finished dish.",
+      "Meet Goma. A small seed with a rich story to tell. Nutty, aromatic and endlessly at home in the kitchen — try a drizzle over noodles, a few drops in your favourite dressing or a warm finishing note just before serving.",
     specs: [
       "Made from sesame seeds",
       "Distinctive sesame flavour",
@@ -43,9 +43,9 @@ export const products: Record<string, ProductData> = {
       "Contains sesame",
     ],
     specGroups: [
-      { label: "Product", values: ["Sesame oil", "For culinary use"] },
-      { label: "Flavour", values: ["Distinctive sesame character", "Nutty notes"] },
-      { label: "Ways to enjoy", values: ["Dressings and dipping sauces", "Marinades and finished dishes"] },
+      { label: "The essence · 胡麻", values: ["Sesame oil", "For the kitchen & table"] },
+      { label: "The character", values: ["Aromatic and nutty", "Beautifully distinctive"] },
+      { label: "The ritual", values: ["Dressings, dips & marinades", "Finish a dish with a drizzle"] },
       { label: "Ingredients & allergens", values: ["Contains sesame", "Refer to the bottle label for the complete ingredient list"] },
       { label: "Bottle information", values: ["Refer to the label for volume, origin and best-before date"] },
       { label: "Storage", values: ["Keep tightly closed", "Store away from heat and direct sunlight"] },
@@ -58,8 +58,8 @@ export const products: Record<string, ProductData> = {
       { src: heroBg, alt: "Sesame oil serving inspiration" },
     ],
     usageImages: [
-      { src: heroBg, alt: "Sesame oil serving suggestion", caption: "A finishing touch for everyday meals" },
-      { src: heroBg, alt: "Sesame oil in the kitchen", caption: "Made for the moments around the table" },
+      { src: heroBg, alt: "Sesame oil serving suggestion", caption: "A little, beautifully placed" },
+      { src: heroBg, alt: "Sesame oil in the kitchen", caption: "Made for gathering around the table" },
     ],
     careNotes: [
       "Contains sesame — check allergen information before use",
