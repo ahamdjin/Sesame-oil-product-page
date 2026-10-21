@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/sesame-oil/goso-transparent-03.png";
 
 const mockProducts = [
   { id: "flora-pitcher", name: "Goso", subtitle: "참기름 · Sesame Oil", price: "$185" },
@@ -24,7 +24,7 @@ const Shop = () => {
                 <img
                   src={heroBg}
                   alt={`${product.name} ${product.subtitle}`}
-                  className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full aspect-square object-contain group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
               </div>
