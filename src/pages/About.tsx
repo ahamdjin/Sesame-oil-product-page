@@ -2,14 +2,14 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const teamMembers = [
   {
-    name: "Our sesame oil",
+    name: "胡麻 · The seed",
     links: [
       { label: "Learn more", href: "/shop/flora-pitcher" },
       
     ],
   },
   {
-    name: "Made for everyday cooking",
+    name: "♡ · The ritual",
     links: [
       { label: "Explore the product", href: "/shop/flora-pitcher" },
     ],
@@ -24,7 +24,7 @@ const About = () => {
           {/* Left column — brand + team */}
           <div className="space-y-12">
             <h1 className="text-2xl font-normal font-sans tracking-normal">
-              Sesame Oil
+              Goma · 胡麻
             </h1>
 
             <div className="space-y-10">
@@ -52,11 +52,11 @@ const About = () => {
           {/* Right column — mission + image */}
           <div className="space-y-12">
             <p className="text-2xl md:text-3xl font-display font-medium leading-relaxed">
-              Sesame oil is a simple ingredient with an unmistakable place in the kitchen.
-              Whether whisked into a dressing, added to a marinade or drizzled
-              over a finished dish, its nutty character brings everyday food to life.
-              This site is dedicated to exploring sesame oil, its flavour and the
-              many ways it can be enjoyed.
+              Goma means sesame in Japanese — 胡麻. We love how much character can live
+              inside something so small. An aromatic finishing touch, a nutty
+              note in a dressing, a quiet detail that makes a favourite meal
+              feel a little more special. Goma is our ode to the small things
+              worth savouring.
             </p>
 
             <img
