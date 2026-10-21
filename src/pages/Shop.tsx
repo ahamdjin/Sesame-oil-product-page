@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const mockProducts = [
-  { id: "flora-pitcher", name: "Sesame Oil", subtitle: "A pantry essential", price: "$185" },
+  { id: "flora-pitcher", name: "Goma", subtitle: "胡麻 · Sesame Oil", price: "$185" },
 ];
 
 const Shop = () => {
