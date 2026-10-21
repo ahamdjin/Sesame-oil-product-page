@@ -34,7 +34,7 @@ const FadeIn = ({
 const storySections = [
   {
     description:
-      "Small seed. Beautiful depth. A little goma brings a warm, nutty finish to the dishes worth gathering around.",
+      "작은 씨앗, 깊은 풍미. A small seed, a beautiful depth of flavour. A little goma makes the everyday feel special.",
     image: sectionTl,
   },
   {
@@ -44,15 +44,15 @@ const storySections = [
   },
   {
     description:
-      "Some things are best kept simple. Good food, good company, and that unmistakable sesame aroma. ごま — a little goes a long way.",
+      "Good food. Good company. One golden finishing touch. 참기름 — the Korean word for sesame oil — is a reminder that a little can go a long way.",
     image: sectionBottom,
   },
 ];
 
 const leftSpecs = [
-  { label: "The seed", value: "胡麻 · Sesame" },
+  { label: "The seed", value: "참깨 · Sesame" },
   { label: "The note", value: "Warm & nutty" },
-  { label: "The ritual", value: "A finishing drizzle" },
+  { label: "The ritual", value: "한 방울 · One drop" },
 ];
 
 const rightSpecs = [
