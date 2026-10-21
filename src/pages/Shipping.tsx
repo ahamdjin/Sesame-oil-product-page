@@ -73,8 +73,8 @@ const Shipping = () => {
             </div>
             <p className="text-secondary-foreground font-light leading-relaxed">
               Shipping coverage depends on the seller's available delivery destinations. For details, contact{" "}
-              <a href="mailto:hello@example.com" className="text-primary hover:text-copper-light underline transition-colors">
-                hello@example.com
+              <a href="/about" className="text-primary hover:text-copper-light underline transition-colors">
+                the seller
               </a>{" "}
               to confirm availability.
             </p>
@@ -101,7 +101,7 @@ const Shipping = () => {
                 <ol className="space-y-2 text-sm">
                   <li className="flex items-start">
                     <span className="text-primary mr-3 font-medium">1.</span>
-                    Email <a href="mailto:returns@example.com" className="text-primary underline">returns@example.com</a> with your order number
+                    Email <a href="/about" className="text-primary underline">the seller</a> with your order number
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-3 font-medium">2.</span>
@@ -130,7 +130,7 @@ const Shipping = () => {
             Have questions? We're here to help.
           </p>
           <a
-            href="mailto:hello@example.com"
+            href="/about"
             className="text-primary hover:text-copper-light underline text-sm uppercase tracking-wider transition-colors"
           >
             Contact Support
