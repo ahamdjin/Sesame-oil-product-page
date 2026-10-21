@@ -3,9 +3,6 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const mockProducts = [
   { id: "flora-pitcher", name: "Sesame Oil", subtitle: "A pantry essential", price: "$185" },
-  { id: "moss-vase", name: "Koke Vase", subtitle: "苔 · Ash Glaze", price: "$145" },
-  { id: "ember-cup-set", name: "Hi Cup Set", subtitle: "火 · Tenmoku", price: "$95" },
-  { id: "stone-bowl", name: "Ishi Bowl", subtitle: "石 · Unglazed", price: "$165" },
 ];
 
 const Shop = () => {
