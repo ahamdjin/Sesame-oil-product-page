@@ -7,13 +7,13 @@ const Footer = () => {
       {/* Newsletter */}
       <div className="container mx-auto px-6 text-center space-y-4 pb-8">
         <p className="text-secondary-foreground text-lg font-light">
-          Want to hear more about sesame oil?
+          A little more of what you love. ♡
         </p>
         <a
           href="/shop/flora-pitcher"
           className="text-primary hover:text-copper-light underline text-base transition-colors"
         >
-          Explore sesame oil
+          Discover Goma
         </a>
       </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
 
       {/* Copyright & Legal */}
       <div className="container mx-auto px-6 pt-6 text-center space-y-4">
-        <p className="text-muted-foreground text-sm">© 2026 Sesame Oil</p>
+        <p className="text-muted-foreground text-sm">© 2026 Goma · 胡麻</p>
         <p className="text-muted-foreground/60 text-xs leading-relaxed max-w-3xl mx-auto">
           No part of this site may be copied, reproduced, republished, transmitted or
           distributed in any form or by any means, including photocopying or other
