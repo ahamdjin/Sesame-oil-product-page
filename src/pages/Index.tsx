@@ -72,7 +72,7 @@ const Index = () => {
             <span className="inline">고소</span>
           </h1>
         </div>
-        <div className="relative w-full max-w-[275px] sm:max-w-[330px] md:max-w-[380px] lg:max-w-[430px] mx-auto mt-10 md:mt-14">
+        <div className="relative w-full max-w-[275px] sm:max-w-[330px] md:max-w-[380px] lg:max-w-[430px] mx-auto mt-20 md:mt-28 lg:mt-32">
           <img
             src={heroBg}
             alt="Goso & Soul sesame oil bottle with sesame leaves, flowers and seeds"
