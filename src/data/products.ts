@@ -30,10 +30,10 @@ export const products: Record<string, ProductData> = {
   "flora-pitcher": {
     id: "flora-pitcher",
     name: "Goma",
-    subtitle: "胡麻 · Sesame Oil",
+    subtitle: "참기름 · Sesame Oil",
     price: "$185",
     description:
-      "Meet Goma. A small seed with a rich story to tell. Nutty, aromatic and endlessly at home in the kitchen — try a drizzle over noodles, a few drops in your favourite dressing or a warm finishing note just before serving.",
+      "Meet Goma. 참기름 — sesame oil. A small seed with a rich story to tell. Nutty, aromatic and endlessly at home in the kitchen — try a drizzle over noodles, a few drops in your favourite dressing or a warm finishing note just before serving.",
     specs: [
       "Made from sesame seeds",
       "Distinctive sesame flavour",
@@ -43,7 +43,7 @@ export const products: Record<string, ProductData> = {
       "Contains sesame",
     ],
     specGroups: [
-      { label: "The essence · 胡麻", values: ["Sesame oil", "For the kitchen & table"] },
+      { label: "The essence · 참깨", values: ["Sesame oil", "For the kitchen & table"] },
       { label: "The character", values: ["Aromatic and nutty", "Beautifully distinctive"] },
       { label: "The ritual", values: ["Dressings, dips & marinades", "Finish a dish with a drizzle"] },
       { label: "Ingredients & allergens", values: ["Contains sesame", "Refer to the bottle label for the complete ingredient list"] },
