@@ -13,7 +13,7 @@ const Footer = () => {
           href="/shop/flora-pitcher"
           className="text-primary hover:text-copper-light underline text-base transition-colors"
         >
-          Discover Goma
+          Discover Goso
         </a>
       </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
 
       {/* Copyright & Legal */}
       <div className="container mx-auto px-6 pt-6 text-center space-y-4">
-        <p className="text-muted-foreground text-sm">© 2026 goma & soul · 참기름</p>
+        <p className="text-muted-foreground text-sm">© 2026 goso & soul · 참기름</p>
         <p className="text-muted-foreground/60 text-xs leading-relaxed max-w-3xl mx-auto">
           No part of this site may be copied, reproduced, republished, transmitted or
           distributed in any form or by any means, including photocopying or other
