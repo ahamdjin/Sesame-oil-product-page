@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { useInView } from "@/hooks/useInView";
-import heroBg from "@/assets/hero-bg.jpg";
-import sectionTl from "@/assets/section-tl.jpg";
-import sectionTr from "@/assets/section-tr.jpg";
-import sectionBottom from "@/assets/section-bottom.jpg";
-import sectionBg from "@/assets/section-bg.jpg";
+import heroBg from "@/assets/sesame-oil/goso-transparent-05.png";
+import sectionTl from "@/assets/sesame-oil/goso-cinematic-11.png";
+import sectionTr from "@/assets/sesame-oil/goso-cinematic-12.png";
+import sectionBottom from "@/assets/sesame-oil/goso-cinematic-13.png";
+import sectionBg from "@/assets/sesame-oil/goso-cinematic-08.png";
 
 const FadeIn = ({
   children,
@@ -75,10 +75,9 @@ const Index = () => {
         <div className="relative w-full max-w-5xl mx-auto">
           <img
             src={heroBg}
-            alt="Sesame oil product"
+            alt="Goso & Soul sesame oil bottle with sesame leaves, flowers and seeds"
             className="w-full h-auto object-contain"
           />
-          <div className="blur-vignette" />
         </div>
       </section>
 
