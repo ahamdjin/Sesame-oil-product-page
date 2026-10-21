@@ -1,4 +1,10 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import galleryBottle from "@/assets/sesame-oil/goso-transparent-04.png";
+import galleryDetail from "@/assets/sesame-oil/goso-transparent-10.png";
+import galleryOil from "@/assets/sesame-oil/goso-cinematic-06.png";
+import galleryTable from "@/assets/sesame-oil/goso-cinematic-01.png";
+import specificationImage from "@/assets/sesame-oil/goso-transparent-09.png";
+import usagePour from "@/assets/sesame-oil/goso-cinematic-02.png";
+import usageKitchen from "@/assets/sesame-oil/goso-cinematic-08.png";
 
 export interface SpecGroup {
   label: string;
@@ -50,16 +56,16 @@ export const products: Record<string, ProductData> = {
       { label: "Bottle information", values: ["Refer to the label for volume, origin and best-before date"] },
       { label: "Storage", values: ["Keep tightly closed", "Store away from heat and direct sunlight"] },
     ],
-    specImage: heroBg,
+    specImage: specificationImage,
     gallery: [
-      { src: heroBg, alt: "Sesame oil product image" },
-      { src: heroBg, alt: "Sesame oil close-up" },
-      { src: heroBg, alt: "Sesame oil packaging detail" },
-      { src: heroBg, alt: "Sesame oil serving inspiration" },
+      { src: galleryBottle, alt: "Goso & Soul Korean sesame oil bottle" },
+      { src: galleryDetail, alt: "Close-up of Goso & Soul sesame oil bottle" },
+      { src: galleryOil, alt: "Goso & Soul sesame oil label and amber glass detail" },
+      { src: galleryTable, alt: "Sesame oil served with sesame seeds and ceramic dishes" },
     ],
     usageImages: [
-      { src: heroBg, alt: "Sesame oil serving suggestion", caption: "A little, beautifully placed" },
-      { src: heroBg, alt: "Sesame oil in the kitchen", caption: "Made for gathering around the table" },
+      { src: usagePour, alt: "Golden sesame oil and serving inspiration", caption: "A little, beautifully placed" },
+      { src: usageKitchen, alt: "Goso & Soul sesame oil photographed in warm studio lighting", caption: "Made for gathering around the table" },
     ],
     careNotes: [
       "Contains sesame — check allergen information before use",
