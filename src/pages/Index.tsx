@@ -34,31 +34,31 @@ const FadeIn = ({
 const storySections = [
   {
     description:
-      "Born from a small family workshop in Arita, Japan. Two hands, one wheel, decades of patience. Every piece begins at dawn and ends when the clay decides it is finished.",
+      "From a tiny seed comes a remarkably distinctive flavour. Sesame oil brings depth and warmth to the everyday dishes we return to again and again.",
     image: sectionTl,
   },
   {
     description:
-      "Our glazes are mixed from recipes passed down three generations. Wood ash from the mountainside, feldspar from the river. No two firings are the same — and we wouldn't have it any other way.",
+      "Just a drizzle can transform a simple bowl of noodles, a quick dressing or a favourite marinade. It's the small finishing touch that makes a meal memorable.",
     image: sectionTr,
   },
   {
     description:
-      "The floral motifs are painted freehand — a tradition our mother learned from her mother. Each brushstroke carries memory, turning raw clay into something that feels alive.",
+      "Made for the kitchen and the table. Discover a versatile ingredient to explore in dipping sauces, vegetables, rice dishes and more.",
     image: sectionBottom,
   },
 ];
 
 const leftSpecs = [
-  { label: "Clay", value: "Arita porcelain stone" },
-  { label: "Glaze", value: "Wood ash celadon" },
-  { label: "Firing", value: "Noborigama, 1300°C" },
+  { label: "Ingredient", value: "Sesame" },
+  { label: "Character", value: "Nutty and aromatic" },
+  { label: "Use", value: "Dressings and marinades" },
 ];
 
 const rightSpecs = [
-  { label: "Height", value: "24cm" },
-  { label: "Capacity", value: "1.4 litres" },
-  { label: "Weight", value: "520g" },
+  { label: "Serving", value: "Add to taste" },
+  { label: "Storage", value: "Away from heat and light" },
+  { label: "Allergen", value: "Contains sesame" },
 ];
 
 const Index = () => {
@@ -68,14 +68,14 @@ const Index = () => {
       <section className="flex flex-col items-center w-full">
         <div className="pt-0 text-center z-10">
           <h1 className="font-display text-[8rem] md:text-[12rem] lg:text-[16rem] font-medium text-foreground leading-[0.85] tracking-tight">
-            <span className="block md:inline">Hana </span>
-            <span className="block md:inline">壺</span>
+            <span className="block md:inline">Sesame </span>
+            <span className="block md:inline">Oil</span>
           </h1>
         </div>
         <div className="relative w-full max-w-5xl mx-auto">
           <img
             src={heroBg}
-            alt="Ceramic pitcher with floral design"
+            alt="Sesame oil product"
             className="w-full h-auto object-contain"
           />
           <div className="blur-vignette" />
@@ -93,7 +93,7 @@ const Index = () => {
               <div className="relative overflow-hidden rounded-2xl h-[60vh]">
                 <img
                   src={section.image}
-                  alt="Ceramic pitcher detail"
+                  alt="Sesame oil product detail"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -112,7 +112,7 @@ const Index = () => {
               <div className="relative mx-auto max-w-[800px]">
                 <img
                   src={sectionBg}
-                  alt="Ceramic pitcher full view"
+                  alt="Sesame oil product view"
                   className="w-full h-auto object-contain"
                   loading="lazy"
                 />
