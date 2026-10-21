@@ -29,11 +29,11 @@ export interface ProductData {
 export const products: Record<string, ProductData> = {
   "flora-pitcher": {
     id: "flora-pitcher",
-    name: "Goma",
+    name: "Goso",
     subtitle: "참기름 · Sesame Oil",
     price: "$185",
     description:
-      "Meet Goma. 참기름 — sesame oil. A small seed with a rich story to tell. Nutty, aromatic and endlessly at home in the kitchen — try a drizzle over noodles, a few drops in your favourite dressing or a warm finishing note just before serving.",
+      "Meet Goso. Inspired by 고소하다 — the Korean word for a rich, nutty flavour. 참기름 is sesame oil. A small seed with a rich story to tell. Nutty, aromatic and endlessly at home in the kitchen — try a drizzle over noodles, a few drops in your favourite dressing or a warm finishing note just before serving.",
     specs: [
       "Made from sesame seeds",
       "Distinctive sesame flavour",
