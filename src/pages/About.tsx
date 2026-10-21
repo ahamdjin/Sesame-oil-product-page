@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/sesame-oil/goso-cinematic-07.png";
 
 const teamMembers = [
   {
