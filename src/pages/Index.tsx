@@ -34,29 +34,29 @@ const FadeIn = ({
 const storySections = [
   {
     description:
-      "From a tiny seed comes a remarkably distinctive flavour. Sesame oil brings depth and warmth to the everyday dishes we return to again and again.",
+      "Small seed. Beautiful depth. A little goma brings a warm, nutty finish to the dishes worth gathering around.",
     image: sectionTl,
   },
   {
     description:
-      "Just a drizzle can transform a simple bowl of noodles, a quick dressing or a favourite marinade. It's the small finishing touch that makes a meal memorable.",
+      "A golden thread through everyday cooking — a drizzle over noodles, a whisper in a dressing, the last little detail before the first bite.",
     image: sectionTr,
   },
   {
     description:
-      "Made for the kitchen and the table. Discover a versatile ingredient to explore in dipping sauces, vegetables, rice dishes and more.",
+      "Some things are best kept simple. Good food, good company, and that unmistakable sesame aroma. ごま — a little goes a long way.",
     image: sectionBottom,
   },
 ];
 
 const leftSpecs = [
-  { label: "Ingredient", value: "Sesame" },
-  { label: "Character", value: "Nutty and aromatic" },
-  { label: "Use", value: "Dressings and marinades" },
+  { label: "The seed", value: "胡麻 · Sesame" },
+  { label: "The note", value: "Warm & nutty" },
+  { label: "The ritual", value: "A finishing drizzle" },
 ];
 
 const rightSpecs = [
-  { label: "Serving", value: "Add to taste" },
+  { label: "A little", value: "Goes a long way" },
   { label: "Storage", value: "Away from heat and light" },
   { label: "Allergen", value: "Contains sesame" },
 ];
@@ -68,8 +68,8 @@ const Index = () => {
       <section className="flex flex-col items-center w-full">
         <div className="pt-0 text-center z-10">
           <h1 className="font-display text-[8rem] md:text-[12rem] lg:text-[16rem] font-medium text-foreground leading-[0.85] tracking-tight">
-            <span className="block md:inline">Sesame </span>
-            <span className="block md:inline">Oil</span>
+            <span className="block md:inline">Goma </span>
+            <span className="block md:inline">胡麻</span>
           </h1>
         </div>
         <div className="relative w-full max-w-5xl mx-auto">
@@ -158,7 +158,7 @@ const Index = () => {
                 to="/shop/flora-pitcher"
                 className="inline-block bg-primary text-primary-foreground rounded-full px-10 py-4 text-sm tracking-widest lowercase hover:bg-primary/90 transition-colors"
               >
-                buy now — $185
+                discover goma — $185
               </Link>
             </div>
           </div>
