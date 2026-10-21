@@ -35,8 +35,7 @@ const Warranty = () => {
                   <h3 className="text-foreground font-medium">Shipping Damage</h3>
                   <p className="text-primary text-2xl font-light font-display">Full Replacement</p>
                   <p className="text-secondary-foreground text-sm font-light">
-                    If your piece arrives broken or damaged in transit, we will ship a replacement
-                    at no cost. Report within 48 hours of delivery with photos.
+                    If your sesame oil bottle arrives broken or leaking, photograph the packaging and contact the seller promptly to discuss next steps.
                   </p>
                 </div>
               </div>
@@ -53,11 +52,11 @@ const Warranty = () => {
             </div>
             <div className="space-y-3">
               {[
-                "Cracks that develop from normal use (not impact)",
-                "Glaze defects: crawling, pinholing, or flaking",
-                "Warping that affects the piece's function",
-                "Leaking in pieces intended to hold liquid",
-                "Handle or spout separation",
+                "Bottle damaged during delivery",
+                "Broken or missing tamper-evident seal",
+                "Leaking or damaged packaging",
+                "Incorrect item supplied",
+                "Questions about expiry or labelling",
                 "Damage that occurred during shipping",
               ].map((item) => (
                 <div key={item} className="flex items-start text-sm">
@@ -78,11 +77,11 @@ const Warranty = () => {
             </div>
             <div className="space-y-3">
               {[
-                "Chips or cracks from drops or impacts",
-                "Staining from food, tea, or coffee (this is natural patina)",
-                "Cosmetic variations in glaze — these are inherent to handmade ceramics",
-                "Damage from dishwasher use on pieces marked hand-wash only",
-                "Thermal shock from extreme temperature changes",
+                "Damage caused after delivery",
+                "Changes following incorrect storage",
+                "Opened food products may not qualify for returns",
+                "Damage due to improper handling",
+                "Problems unrelated to the supplied product",
                 "Loss or theft",
               ].map((item) => (
                 <div key={item} className="flex items-start text-sm">
@@ -110,15 +109,15 @@ const Warranty = () => {
                   },
                   {
                     step: "Contact Us",
-                    desc: "Email care@soilandspirit.com with your photos, order number, and a brief description. We respond within 24 hours.",
+                    desc: "Email care@example.com with your photos, order number, and a brief description. We respond within 24 hours.",
                   },
                   {
                     step: "Review",
-                    desc: "Our team will review your claim. We may ask for additional photos or details about how the piece has been used.",
+                    desc: "The seller may request additional photos and order details.",
                   },
                   {
                     step: "Resolution",
-                    desc: "Approved claims are resolved with a replacement piece, shipped at no cost. Most claims are resolved within 5–7 business days.",
+                    desc: "Any eligible resolution follows the seller's confirmed policy.",
                   },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
@@ -137,26 +136,23 @@ const Warranty = () => {
             </div>
           </section>
 
-          {/* A Note on Handmade */}
+          {/* A Note on Product Quality */}
           <section className="bg-secondary rounded-lg p-8 text-center space-y-4">
             <h2 className="text-2xl font-light text-foreground tracking-wide font-display">
-              A Note on Handmade
+              A Note on Product Quality
             </h2>
             <p className="text-secondary-foreground font-light max-w-2xl mx-auto">
-              Every piece we make carries the subtle marks of the human hand — slight asymmetries,
-              glaze variations, and traces of the making process. These are not defects. They are
-              what makes each piece singular. Our warranty covers functional issues, not the
-              beautiful irregularities that come with handmade work.
+              Check that the sesame oil bottle is intact and properly sealed before use. If there is visible damage or a packaging concern, contact the seller with photos and your order information.
             </p>
           </section>
         </div>
 
         <div className="text-center mt-20">
           <p className="text-muted-foreground text-sm font-light mb-4">
-            Questions about your warranty?
+            Questions about product quality?
           </p>
           <a
-            href="mailto:care@soilandspirit.com"
+            href="mailto:care@example.com"
             className="text-primary hover:text-copper-light underline text-sm uppercase tracking-wider transition-colors"
           >
             Contact Support
