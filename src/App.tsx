@@ -5,11 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
-import ProductDetail from "./pages/ProductDetail";
-import About from "./pages/About";
-import Shop from "./pages/Shop";
-import Shipping from "./pages/Shipping";
-import Warranty from "./pages/Warranty";
+import ComingSoon from "./pages/ComingSoon";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,11 +19,11 @@ const App = () => (
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/shop" element={<Shop />} />
-            <Route path="/shop/:productId" element={<ProductDetail />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/shipping" element={<Shipping />} />
-            <Route path="/warranty" element={<Warranty />} />
+            <Route path="/shop" element={<ComingSoon />} />
+            <Route path="/shop/:productId" element={<ComingSoon />} />
+            <Route path="/about" element={<ComingSoon />} />
+            <Route path="/shipping" element={<ComingSoon />} />
+            <Route path="/warranty" element={<ComingSoon />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
